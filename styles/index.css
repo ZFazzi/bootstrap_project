@@ -5,11 +5,12 @@ h1 {
 
 .container-fluid {
   background-color: rgba(238, 217, 192, 0.911);
+  font-weight: 600;
 }
 
 .container img {
   height: 250px;
-  margin-right: 20px;
+  margin-right: 60px;
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -22,4 +23,32 @@ h1 {
 .about-me {
   margin-top: 80px;
   font-size: 20px;
+}
+
+.mb-3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 40px;
+  max-width: 40%;
+}
+
+.btn-primary {
+  background-color: #bfd6cc;
+  color: black;
+  border-color: #bfd6cc;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: rgba(191, 214, 204, 0.6588235294);
+  border-color: #bfd6cc;
+  color: black;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
 }
